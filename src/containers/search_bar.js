@@ -14,6 +14,7 @@ export default class SearchBar extends Component {
 		this.onFormSubmit = this.onFormSubmit.bind(this);
 	}
 
+	
 	onInputChange(event){
 		//this function does not have access to 'this' object of SearchBar
 		//therefore we need to bind this function in constructor
